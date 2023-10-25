@@ -8,62 +8,22 @@ public class Event {
     private int availableTickets;
 
     // Getters
-    public int getEventId() {
-        return eventId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public Venue getVenue() {
-        return venue;
-    }
-
-    public String getDateTime() {
-        return dateTime;
-    }
-
-    public float getTicketPrice() {
-        return ticketPrice;
-    }
-
-    public int getTotalTickets() {
-        return totalTickets;
-    }
-
-    public int getAvailableTickets() {
-        return availableTickets;
-    }
+    public int getEventId() { return eventId; }
+    public String getName() { return name; }
+    public Venue getVenue() { return venue; }
+    public String getDateTime() { return dateTime; }
+    public float getTicketPrice() { return ticketPrice; }
+    public int getTotalTickets() { return totalTickets; }
+    public int getAvailableTickets() { return availableTickets; }
 
     // Setters
-    public void setEventId(int eventId) {
-        this.eventId = eventId;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setVenue(Venue venue) {
-        this.venue = venue;
-    }
-
-    public void setDateTime(String dateTime) {
-        this.dateTime = dateTime;
-    }
-
-    public void setTicketPrice(float ticketPrice) {
-        this.ticketPrice = ticketPrice;
-    }
-
-    public void setTotalTickets(int totalTickets) {
-        this.totalTickets = totalTickets;
-    }
-
-    public void setAvailableTickets(int availableTickets) {
-        this.availableTickets = availableTickets;
-    }
+    public void setEventId(int eventId) { this.eventId = eventId; }
+    public void setName(String name) { this.name = name; }
+    public void setVenue(Venue venue) { this.venue = venue; }
+    public void setDateTime(String dateTime) { this.dateTime = dateTime; }
+    public void setTicketPrice(float ticketPrice) { this.ticketPrice = ticketPrice; }
+    public void setTotalTickets(int totalTickets) { this.totalTickets = totalTickets; }
+    public void setAvailableTickets(int availableTickets) { this.availableTickets = availableTickets; }
 
     // Methods
     public boolean createEvent() {
